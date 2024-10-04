@@ -1,0 +1,38 @@
+Game TowerDefense
+- Thể loại: Thủ thành
+	- Trong game sẽ có map
+	- Map này sẽ có đường đi
+	- Enemy sẽ đi trên đường đó để đến cổng (đích)
+	- Trên ven đường thì mình có thể đặt tháp canh để tấn công enemy
+	- Các tháp canh có thể nâng cấp thành level mới được
+
+- Cách chơi:
+	- Mình sẽ mua tháp bằng tài nguyên trong game (vàng, kim cương,..)
+	- Mình sẽ unlock từng level một, có các độ khó khác nhau
+
+- Làm game
+	Các đối tượng sẽ có trong game:
+		- Enemy
+		- Phải có cổng (lâu đài cuối đường): Goal
+		- Đường đi để cho enemy đi: Road, Path
+		- Tháp canh: Tower
+
+	Phân tích từng đối tượng
+		- Enemy: sẽ đi thẳng theo đường
+			- Các animation trong game: run
+			- Máu HP
+			- Tốc độ di chuyển
+			- Sức mạnh: Damage
+		- Goal: 		
+			- Máu HP
+		- Đường đi:
+		- Tower: 
+			- Sức mạnh: Damage
+			- Level nâng cấp hình dạng
+			- Range Attack
+
+	
+
+
+
+
